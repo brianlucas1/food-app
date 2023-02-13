@@ -2,6 +2,9 @@ package br.com.food.pagamentos.controller;
 
 import java.net.URI;
 
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -19,8 +22,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import br.com.food.pagamentos.model.dto.PagamentoDTO;
 import br.com.food.pagamentos.service.PagamentoService;
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotNull;
 
 @RestController
 @RequestMapping("/pagamentos")
