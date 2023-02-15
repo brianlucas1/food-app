@@ -1,6 +1,20 @@
 # food-app
 
-App baseado em Micro-serviços.
+Projeto desenvolvido utilizando os conceitos de Micro-serviços.
 
-#Stack
-Java 11, RabbitMq, eurekaServer e GateWay
+# Tecnologias
+
+Java 11
+
+Spring Framework
+
+H2 Database
+
+Docker
+
+AWS
+
+Circurity Breaker
+
+Eureka Client
+
